@@ -1,0 +1,124 @@
+Container(
+    width: 390,
+    height: 844,
+    color: Colors.white,
+    padding: const EdgeInsets.only(bottom: 286, ),
+    child: Column(
+        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children:[
+            Container(
+                width: 390,
+                height: 320,
+                child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children:[
+                        Container(
+                            width: 390,
+                            height: 320,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(topLeft: Radius.circular(0), topRight: Radius.circular(0), bottomLeft: Radius.circular(32), bottomRight: Radius.circular(32), ),
+                                color: Color(0xffd29a9a),
+                            ),
+                        ),
+                        SizedBox(height: 26.76),
+                        Opacity(
+                            opacity: 0.05,
+                            child: Container(
+                                width: double.infinity,
+                                height: 608.76,
+                                child: Column(
+                                    mainAxisSize: MainAxisSize.min,
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    crossAxisAlignment: CrossAxisAlignment.center,
+                                    children:[
+                                        Container(
+                                            width: 524,
+                                            height: 169.53,
+                                            decoration: BoxDecoration(
+                                                borderRadius: BorderRadius.circular(8),
+                                            ),
+                                            child: FlutterLogo(size: 169.5294189453125),
+                                        ),
+                                        SizedBox(height: 339.06),
+                                        Container(
+                                            width: 535.56,
+                                            height: 242.74,
+                                            decoration: BoxDecoration(
+                                                borderRadius: BorderRadius.circular(8),
+                                                border: Border.all(color: Colors.white, width: 88.62, ),
+                                                color: Color(0x7f7f3a44),
+                                            ),
+                                        ),
+                                    ],
+                                ),
+                            ),
+                        ),
+                    ],
+                ),
+            ),
+            SizedBox(height: 9.80),
+            Container(
+                width: 12.75,
+                height: 14.81,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                ),
+                child: FlutterLogo(size: 12.75),
+            ),
+            SizedBox(height: 9.80),
+            Container(
+                width: 376,
+                height: 88,
+                child: FlutterLogo(size: 88),
+            ),
+            SizedBox(height: 9.80),
+            SizedBox(
+                width: 284,
+                child: Text(
+                    "Новые возможности в создании проектов",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                        color: Color(0xff333333),
+                        fontSize: 20,
+                    ),
+                ),
+            ),
+            SizedBox(height: 9.80),
+            Column(
+                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children:[
+                    Container(
+                        height: 48,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: Color(0xff2f2d75),
+                        ),
+                        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8, ),
+                        child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children:[
+                                Text(
+                                    "GET STARTED",
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 14,
+                                        fontFamily: "Rubik",
+                                        fontWeight: FontWeight.w500,
+                                    ),
+                                ),
+                            ],
+                        ),
+                    ),
+                ],
+            ),
+        ],
+    ),
+)
